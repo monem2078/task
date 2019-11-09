@@ -2,6 +2,12 @@
 namespace reverseAlgorithm;
 
 class reverseAlgorithm {
+
+    /**
+     * function encrypt string by reverse it.
+     * 
+     * @param string $string the string to be encrypted.
+     */
     function reverseAlgorithmEncryption($string) {
         // encrypt endpoint.
         $url = 'http://backendtask.robustastudio.com/encode';
@@ -28,6 +34,11 @@ class reverseAlgorithm {
         return $response . PHP_EOL;
     }
 
+      /**
+     * function decrypt string by reverse it.
+     * 
+     * @param string $string the string to be decrypted.
+     */
     function reverseAlgorithmDecryption($string) {
         // encrypt endpoint.
         $url = 'http://backendtask.robustastudio.com/decode';
