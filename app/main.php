@@ -7,8 +7,7 @@ $str = "hello world";
 // function call
 $shiftAlgortihm = new shiftAlgorithm();
 $shiftedString = $shiftAlgortihm->shiftEncryptionAlgorithm($str);
-$originalSring = $shiftAlgortihm->shiftDecryptionAlgorithm($shiftedString);
-echo "Shifted String is:" . $shiftedString . " ---- " . " Original String is:" . $originalSring. "<br>";
+echo "Shifted String is:" . $shiftedString . "<br>";
 
 
 ?>
